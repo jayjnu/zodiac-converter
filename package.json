@@ -1,0 +1,19 @@
+{
+  "name": "fortune-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "nodemon req.js --exec babel-node",
+    "start": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "nodemon": "^1.11.0"
+  }
+}
